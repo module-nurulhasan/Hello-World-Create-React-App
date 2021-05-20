@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import jsxIntro from './components/jsx_hello'
+
 function App() {
   return (
     <div className="App">

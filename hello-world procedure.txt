@@ -1,0 +1,25 @@
+Making react applications using create-react-app package:
+
+First method: using npx which is a npm package runner which gets installed after we install node.
+Run command on vscode terminal:
+
+npx create-react-app <project_folder_name>
+cd <project_folder_name>
+npm start
+
+Note : exclude <> from <project_folder_name>
+At 1st line package installation occurs. 2nd line we navigate inside the project folder. 3rd line makes default browser to open a tab to localhost:3000 with the application running.
+On browser we observe that 'Edit src/App.js and save to reload' is written. To edit that we go the folder called hello-world with vscode.
+Expand src folder and click App.js
+There within p tag we observe 'Edit <code> src/App.js</code>and save to reload' was written. Edit that line of text as we please and save.
+Then on browser we observe the text that we edited.
+
+
+
+Second method: we install create-react-app package globally and then use the package to generate the project.
+Run command on vscode terminal:
+
+npm install create-react-app -g
+create-react-app <project_folder_name> 
+
+In this case we have to constantly update create-react-app package.
